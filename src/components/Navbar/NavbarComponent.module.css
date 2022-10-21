@@ -1,0 +1,36 @@
+nav {
+  display: flex;
+  padding: 2rem;
+  box-shadow: 0 1px 3px #0000001a, 0 2px 2px #0000000f, 0 0 2px #00000012;
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  align-items: center;
+}
+
+.nav-menu > ul {
+  display: flex;
+  text-transform: uppercase;
+  margin-left: 2rem;
+  list-style: none;
+}
+
+.nav-menu li {
+  padding: 0 1rem;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-links > p {
+  padding: 0 1rem;
+}
+
+.nav-logo {
+  height: 3rem;
+  width: 3rem;
+}
