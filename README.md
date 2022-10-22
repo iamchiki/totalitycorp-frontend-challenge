@@ -11,4 +11,4 @@ Tech stack used
 
 ### Demo Link
 
-- [Live URL](https://iamchiki.github.io/crypto-info-app/)
+- [Live URL](https://totalitycorp-frontend.netlify.app/)
