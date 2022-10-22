@@ -1,0 +1,18 @@
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 3rem;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #000;
+  border-color: #000;
+}
+
+.btn-black {
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
+}

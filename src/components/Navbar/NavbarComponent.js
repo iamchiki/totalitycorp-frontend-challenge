@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../Buttton/Button";
 import styles from "./NavbarComponent.module.css";
 
 const NavbarComponent = () => {
@@ -7,7 +8,7 @@ const NavbarComponent = () => {
       <nav>
         <div className={styles["nav-logo"]}>
           <svg
-            class="block"
+            className="block"
             focusable="false"
             height="100%"
             viewBox="0 0 62 62"
@@ -32,8 +33,8 @@ const NavbarComponent = () => {
           </div>
           <div className={styles["nav-links"]}>
             <p>Find a store</p>
-            <p>Sign in</p>
-            <p>Join now</p>
+            <Button btnClass="btn-white">Sign in</Button>
+            <Button btnClass="btn-black">Join now</Button>
           </div>
         </div>
       </nav>

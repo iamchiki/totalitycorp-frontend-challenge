@@ -1,6 +1,6 @@
 nav {
   display: flex;
-  padding: 2rem;
+  padding: 1.5rem 2rem;
   box-shadow: 0 1px 3px #0000001a, 0 2px 2px #0000000f, 0 0 2px #00000012;
 }
 
