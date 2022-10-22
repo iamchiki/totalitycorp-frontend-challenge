@@ -1,0 +1,27 @@
+.links {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.links > li {
+  padding: 0.8rem 0;
+}
+
+.links a {
+  text-decoration: none;
+  color: #00000094;
+}
+
+.links a:hover {
+  text-decoration: none;
+  color: #000000de;
+}
+
+.link-container {
+  margin-right: 2rem;
+}
+
+.link-container > h3 {
+  padding: 0.8rem 0;
+  color: #000000de;
+}
