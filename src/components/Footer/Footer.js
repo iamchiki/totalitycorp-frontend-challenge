@@ -1,17 +1,28 @@
 import React from "react";
 import { linksArr, svgs } from "../../constants/constant";
+import useViewport from "../../hooks/useViewport";
+import Accordian from "../Accordian/Accordian";
 import LinksComponent from "../LinksComponent/LinksComponent";
 import styles from "./Footer.module.css";
 
 const Footer = () => {
+  const { width } = useViewport();
+
   return (
     <footer>
       <nav className={styles["footer-nav"]}>
-        <div className={styles["links-section"]}>
-          {linksArr.map((content) => {
-            return <LinksComponent linkContent={content}></LinksComponent>;
+        {width > 768 && (
+          <div className={styles["links-section"]}>
+            {linksArr.map((content) => {
+              return <LinksComponent linkContent={content}></LinksComponent>;
+            })}
+          </div>
+        )}
+        {width < 768 &&
+          linksArr.map((content) => {
+            return <Accordian linkContent={content}></Accordian>;
           })}
-        </div>
+
         <hr className={styles["hr-line"]}></hr>
         <div>
           <ul className={styles["svg-list"]}>

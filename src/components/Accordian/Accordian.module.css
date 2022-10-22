@@ -1,0 +1,43 @@
+.links {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.links > li {
+  padding: 0.8rem 0;
+}
+
+.links a {
+  text-decoration: none;
+  color: #00000094;
+}
+
+.links a:hover {
+  text-decoration: none;
+  color: #000000de;
+}
+
+.accordian-container {
+  margin-right: 2rem;
+}
+
+.accordian-heading {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordian-container h3 {
+  padding: 0.8rem 0;
+  color: #000000de;
+}
+
+.rotate {
+  transform: rotate(180deg);
+  transition: all 0.2s ease-out;
+}
+
+.rotate-reverse {
+  transition: all 0.2s ease-out;
+}

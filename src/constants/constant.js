@@ -308,3 +308,95 @@ export const svgs = [
     url: "https://twitter.com/starbucks/",
   },
 ];
+
+export const menuSvg = (
+  <svg
+    aria-hidden="true"
+    class="valign-middle absoluteCenter"
+    focusable="false"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 24 24"
+    style={{
+      width: "24px",
+      height: "24px",
+      overflow: "visible",
+      fill: "#000",
+    }}>
+    <path
+      className="sb-hamburgerButton-middleLine-CLOSED sb-hamburgerButton-animation"
+      d="M21,12.9H3c-0.5,0-0.9-0.4-0.9-0.9s0.4-0.9,0.9-0.9h18c0.5,0,0.9,0.4,0.9,0.9S21.5,12.9,21,12.9z"></path>
+    <path
+      className="sb-hamburgerButton-topLine-CLOSED sb-hamburgerButton-animation sb-hamburgerButton-animation-outer-lines"
+      d="M21,6.9H3C2.5,6.9,2.1,6.5,2.1,6S2.5,5.1,3,5.1h18c0.5,0,0.9,0.4,0.9,0.9S21.5,6.9,21,6.9z"></path>
+    <path
+      className="sb-hamburgerButton-bottomLine-CLOSED sb-hamburgerButton-animation sb-hamburgerButton-animation-outer-lines"
+      d="M21,18.9H3c-0.5,0-0.9-0.4-0.9-0.9s0.4-0.9,0.9-0.9h18c0.5,0,0.9,0.4,0.9,0.9S21.5,18.9,21,18.9z"></path>
+    <circle
+      className="sb-icon-hover"
+      cx="50%"
+      cy="50%"
+      fill="transparent"
+      r="75%"></circle>
+  </svg>
+);
+
+export const closeSvg = (
+  <svg
+    focusable="false"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    style={{
+      width: "24px",
+      height: "24px",
+      overflow: "visible",
+      fill: "#000",
+    }}>
+    <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
+  </svg>
+);
+
+export const downArrow = (
+  <svg
+    aria-hidden="true"
+    class="valign-middle absoluteCenter"
+    focusable="false"
+    preserveAspectRatio="xMidYMid meet"
+    style={{
+      width: "32px",
+      height: "32px",
+      overflow: "visible",
+      fill: "#000",
+    }}
+    viewBox="0 0 24 24">
+    <path d="M11.96 15.5c-.206 0-.402-.084-.546-.232l-5.188-5.33c-.3-.31-.3-.81 0-1.12.3-.31.79-.31 1.093 0l4.64 4.767 4.723-4.853c.3-.31.79-.31 1.09 0 .303.31.303.812.002 1.122l-5.27 5.414c-.145.148-.34.232-.546.232"></path>
+    <circle
+      class="sb-icon-hover"
+      cx="50%"
+      cy="50%"
+      fill="transparent"
+      r="75%"></circle>
+  </svg>
+);
+
+export const upArrow = (
+  <svg
+    aria-hidden="true"
+    className="valign-middle absoluteCenter"
+    focusable="false"
+    preserveAspectRatio="xMidYMid meet"
+    style={{
+      width: "32px",
+      height: "32px",
+      overflow: "visible",
+      fill: "#000",
+    }}
+    viewBox="0 0 24 24">
+    <path d="M11.96 15.5c-.206 0-.402-.084-.546-.232l-5.188-5.33c-.3-.31-.3-.81 0-1.12.3-.31.79-.31 1.093 0l4.64 4.767 4.723-4.853c.3-.31.79-.31 1.09 0 .303.31.303.812.002 1.122l-5.27 5.414c-.145.148-.34.232-.546.232"></path>
+    <circle
+      className="sb-icon-hover"
+      cx="50%"
+      cy="50%"
+      fill="transparent"
+      r="75%"></circle>
+  </svg>
+);

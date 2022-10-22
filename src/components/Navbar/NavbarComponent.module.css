@@ -9,6 +9,9 @@ nav {
   justify-content: space-between;
   flex: 1;
   align-items: center;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
 .nav-menu > ul {
@@ -20,10 +23,28 @@ nav {
 
 .nav-menu li {
   padding: 0 1rem;
+  cursor: pointer;
+}
+
+.nav-menu li:hover {
+  color: #00754a;
 }
 
 .nav-links {
   display: flex;
+  align-items: center;
+  width: 20rem;
+  justify-content: space-between;
+}
+
+.nav-links a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: #00754a;
 }
 
 .nav-links > p {
